@@ -36,7 +36,7 @@ spec:
 apiVersion: v1  # API version for service resources.
 kind: Service  # Indicates that this is a Service resource.
 metadata:
-  name: mongodb-service  # The name of the service.
+  name: mongo  # The name of the service.
 spec:
   selector:
     app: mongodb  # This service routes traffic to pods with the label 'app: mongodb'.
